@@ -1,0 +1,12 @@
+---
+# handlers file for nginx
+
+- name: restart httpd
+  service:
+    name: httpd
+    state: restarted
+
+#- name: restart nginx
+ # service:
+  #  name: nginx
+   # state: restarted
